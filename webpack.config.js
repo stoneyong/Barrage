@@ -84,7 +84,7 @@ var PATHS = {
    * public resource path
    * （公共资源目录）
    * */
-  libsPath: path.resolve(process.cwd(), './Content/vendor')
+  libsPath: path.resolve(process.cwd(), './src/vendor')
 }
 
 
@@ -110,8 +110,8 @@ var resolve = {
   alias: {
     // 'vue$': 'vue/dist/vue',
     'jquery': path.join(PATHS.libsPath, "jquery/jquery"),
-    'doT': path.join(PATHS.libsPath, "doT/doT"),
-    'jwPlayer': path.join(PATHS.libsPath, 'jwPlayer/jwPlayer')
+    // 'doT': path.join(PATHS.libsPath, "doT/doT"),
+    // 'jwPlayer': path.join(PATHS.libsPath, 'jwPlayer/jwPlayer')
   },
 
   /*
@@ -129,9 +129,8 @@ var resolve = {
  * （入口）
  * */
 var entry = {
-  //settings: './Content/modules/settings/main.js',
-  player: './Content/modules/player/player.js',
-  common: ['jquery', path.join(__dirname, './Content/global')],
+  index: './src/modules/barrage/barrage.js',
+  common: ['jquery'],
 };
 
 /*
@@ -267,7 +266,6 @@ let plugins = [
        * */
       __DEVAPI__: debug ? "/devApi/" : "''",
 
-
       /*
        * 去除vue的所有警告代码：http://vue-loader.vuejs.org/en/workflow/production.html
        * */
@@ -336,11 +334,11 @@ let plugins = [
      * */
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: __dirname + '/Content/index.html',
+      template: __dirname + '/src/index.html',
       inject: 'true',
 
       // 需要依赖的模块
-      chunks: ['common', 'settings', 'webpackAssets'],
+      chunks: ['common', 'index', 'webpackAssets'],
 
       // 根据依赖自动排序
       chunksSortMode: 'dependency'

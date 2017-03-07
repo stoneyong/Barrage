@@ -1,0 +1,496 @@
+.jw-icon {
+  font-family: 'jw-icons';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  background-color: transparent;
+  font-variant: normal;
+  /* Enable Ligatures ================ */
+
+  -webkit-font-feature-settings: "liga";
+     -moz-font-feature-settings: "liga=1";
+     -moz-font-feature-settings: "liga";
+      -ms-font-feature-settings: "liga" 1;
+       -o-font-feature-settings: "liga";
+          font-feature-settings: "liga";
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mixin for common skin styles with variable colors */
+
+.jw-skin-roundster {
+  /* Text color in thumbnail that appears upon hovering on the timeline slider */
+
+  /* Colors for display icons */
+
+  /* Slider colors */
+
+  /* Styles for menu elements, volume, slider thumbnail */
+
+  /* Dock button styles */
+
+  /*
+        Chromecast
+        */
+
+  /* Next up display */
+
+  /* Color for list item text in menu lists */
+
+  /* Controlbar styles */
+
+  /* Playlist title */
+
+  /* Rail/slider styles */
+
+  /* Timeline and horizontal volume slider */
+
+  /* Volume slider */
+
+  /* For the overlay containers */
+
+  /* Position of remaining overlay containers */
+
+  /* For the dock, in the upper right corner */
+
+}
+
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-controlbar {
+  height: 2em;
+}
+
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-controlbar .jw-overlay {
+  bottom: 2em;
+}
+
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-time-tip {
+  bottom: 1em;
+}
+
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-captions {
+  max-height: calc(84.5%);
+}
+
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jwplayer video::-webkit-media-text-track-container {
+  max-height: calc(84.5%);
+}
+
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-controls .jw-controls-right {
+  bottom: 2em;
+}
+
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-icon-inline,
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-icon-tooltip,
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-text-elapsed,
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-text-duration,
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-text-countdown {
+  height: 2em;
+  line-height: 2em;
+}
+
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1).jw-flag-audio-player .jw-controlbar {
+  height: 100%;
+}
+
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1).jw-flag-audio-player .jw-icon-inline,
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1).jw-flag-audio-player .jw-icon-tooltip,
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1).jw-flag-audio-player .jw-text-elapsed,
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1).jw-flag-audio-player .jw-text-duration,
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1).jw-flag-audio-player .jw-text-countdown {
+  height: auto;
+  line-height: normal;
+}
+
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-icon-inline,
+.jw-skin-roundster.jw-flag-time-slider-default:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-icon-tooltip {
+  min-width: 1.25em;
+}
+
+.jw-skin-roundster .jw-background-color {
+  background: #dfe2e9;
+}
+
+.jw-skin-roundster .jw-controlbar {
+  background: #dfe2e9;
+}
+
+.jw-skin-roundster .jw-text {
+  color: #8490a0;
+}
+
+.jw-skin-roundster .jw-tooltip-title {
+  color: #8490a0;
+  border-bottom: 1px solid #8490a0;
+}
+
+.jw-skin-roundster .jw-knob {
+  color: #8490a0;
+  background-color: #f15173;
+}
+
+.jw-skin-roundster .jw-button-color {
+  color: #8490a0;
+}
+
+.jw-skin-roundster .jw-button-color:hover {
+  color: #f15173;
+}
+
+.jw-skin-roundster .jw-button-color:focus {
+  outline: none;
+  color: #f15173;
+}
+
+.jw-skin-roundster .jw-toggle {
+  color: #f15173;
+}
+
+.jw-skin-roundster .jw-toggle.jw-off {
+  color: #8490a0;
+}
+
+.jw-skin-roundster .jw-toggle.jw-off:hover,
+.jw-skin-roundster .jw-toggle.jw-off:focus {
+  color: #f15173;
+}
+
+.jw-skin-roundster .jw-toggle:focus {
+  outline: none;
+}
+
+.jw-skin-roundster .jw-display-icon-container {
+  background-color: #8490a0;
+  border-radius: 0.45em;
+  margin: 0 0.25em;
+}
+
+.jw-skin-roundster .jw-display-icon-container .jw-icon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.jw-skin-roundster .jw-display-icon-container:hover {
+  background: #f15173;
+}
+
+.jw-skin-roundster .jw-display-icon-container:hover .jw-icon {
+  color: #ffffff;
+}
+
+.jw-skin-roundster .jw-rail {
+  background: #878fa2;
+}
+
+.jw-skin-roundster .jw-buffer {
+  background: #9c9a9d;
+}
+
+.jw-skin-roundster .jw-progress {
+  background: #f15173;
+}
+
+.jw-skin-roundster .jw-slider-horizontal {
+  background: #dfe2e9;
+  height: 0.4em;
+}
+
+.jw-skin-roundster .jw-slider-horizontal .jw-rail,
+.jw-skin-roundster .jw-slider-horizontal .jw-buffer,
+.jw-skin-roundster .jw-slider-horizontal .jw-progress {
+  height: 0.4em;
+}
+
+.jw-skin-roundster .jw-slider-horizontal .jw-knob {
+  margin-left: -0.45em;
+}
+
+.jw-skin-roundster .jw-slider-vertical .jw-knob {
+  margin-bottom: -0.45em;
+}
+
+.jw-skin-roundster .jw-slider-vertical .jw-slider-container,
+.jw-skin-roundster .jw-slider-vertical .jw-rail,
+.jw-skin-roundster .jw-slider-vertical .jw-progress {
+  width: 0.75em;
+}
+
+.jw-skin-roundster .jw-time-tip,
+.jw-skin-roundster .jw-volume-tip,
+.jw-skin-roundster .jw-menu {
+  background: #dfe2e9;
+  border: 0;
+  padding: 1em;
+}
+
+.jw-skin-roundster .jw-menu.jw-background-color {
+  background: #dfe2e9;
+}
+
+.jw-skin-roundster .jw-skip {
+  background: #dfe2e9;
+  padding: 0.5em;
+}
+
+.jw-skin-roundster .jw-skip .jw-skiptext,
+.jw-skin-roundster .jw-skip .jw-skip-icon {
+  color: #8490a0;
+}
+
+.jw-skin-roundster .jw-skip.jw-skippable:hover .jw-skip-icon,
+.jw-skin-roundster .jw-skip.jw-skippable:hover .jw-text {
+  color: #f15173;
+}
+
+.jw-skin-roundster .jw-time-tip .jw-text,
+.jw-skin-roundster .jw-dock-button .jw-text {
+  color: #8490a0;
+}
+
+.jw-skin-roundster .jw-dock-button {
+  background: #8490a0;
+  border-radius: 0.45em;
+}
+
+.jw-skin-roundster .jw-dock-button:hover {
+  background: #f15173;
+}
+
+.jw-skin-roundster .jw-icon-cast button {
+  --connected-color: #f15173;
+  --disconnected-color: #8490a0;
+}
+
+.jw-skin-roundster .jw-icon-cast button:focus {
+  --connected-color: #f15173;
+  --disconnected-color: #f15173;
+}
+
+.jw-skin-roundster .jw-icon-cast button.jw-off {
+  --connected-color: #8490a0;
+}
+
+.jw-skin-roundster .jw-icon-cast:hover button {
+  --connected-color: #f15173;
+  --disconnected-color: #f15173;
+}
+
+.jw-skin-roundster .jw-nextup-container {
+  bottom: 2em;
+  padding: 5px 0.5em;
+}
+
+.jw-skin-roundster .jw-nextup {
+  border-radius: 0.5em;
+}
+
+.jw-skin-roundster .jw-nextup-header {
+  background: rgba(223, 226, 233, 0.8);
+  color: #f15173;
+}
+
+.jw-skin-roundster .jw-nextup-body {
+  background: rgba(163, 171, 191, 0.8);
+  color: #ffffff;
+}
+
+.jw-skin-roundster .jw-nextup-thumbnail-visible + .jw-nextup-title::after {
+  background: linear-gradient(-180deg, rgba(163, 171, 191, 0) 0%, #a3abbf 100%);
+}
+
+.jw-skin-roundster .jw-nextup-close {
+  color: #8490a0;
+}
+
+.jw-skin-roundster .jw-nextup-close:active {
+  color: #f15173;
+}
+
+.jw-skin-roundster .jw-nextup-close:hover {
+  color: #f15173;
+}
+
+.jw-skin-roundster:not(.jw-flag-audio-player).jw-flag-time-slider-above .jw-controlbar-center-group .jw-slider-horizontal .jw-knob,
+.jw-skin-roundster:not(.jw-flag-audio-player).jw-breakpoint-0 .jw-controlbar-center-group .jw-slider-horizontal .jw-knob,
+.jw-skin-roundster:not(.jw-flag-audio-player).jw-breakpoint-1 .jw-controlbar-center-group .jw-slider-horizontal .jw-knob {
+  border-radius: 100%;
+  height: 16px;
+  margin-left: -8px;
+  margin-top: -8px;
+  width: 16px;
+}
+
+.jw-skin-roundster:not(.jw-flag-audio-player).jw-flag-time-slider-above .jw-progress,
+.jw-skin-roundster:not(.jw-flag-audio-player).jw-breakpoint-0 .jw-progress,
+.jw-skin-roundster:not(.jw-flag-audio-player).jw-breakpoint-1 .jw-progress {
+  background: #f15173;
+}
+
+.jw-skin-roundster:not(.jw-flag-audio-player).jw-flag-time-slider-above .jw-tooltip-time .jw-time-tip,
+.jw-skin-roundster:not(.jw-flag-audio-player).jw-breakpoint-0 .jw-tooltip-time .jw-time-tip,
+.jw-skin-roundster:not(.jw-flag-audio-player).jw-breakpoint-1 .jw-tooltip-time .jw-time-tip {
+  border-radius: 0.45em;
+}
+
+.jw-skin-roundster.jwplayer:hover .jw-display-icon-container {
+  background-color: #f15173;
+}
+
+.jw-skin-roundster .jw-color-active {
+  color: #f15173;
+  stroke: #f15173;
+  border-color: #f15173;
+}
+
+.jw-skin-roundster .jw-color-active-hover:hover {
+  color: #f15173;
+  stroke: #f15173;
+  border-color: #f15173;
+}
+
+.jw-skin-roundster .jw-color-inactive {
+  color: #8490a0;
+  stroke: #8490a0;
+  border-color: #8490a0;
+}
+
+.jw-skin-roundster .jw-color-inactive-hover:hover {
+  color: #8490a0;
+  stroke: #8490a0;
+  border-color: #8490a0;
+}
+
+.jw-skin-roundster .jw-option {
+  color: #8490a0;
+}
+
+.jw-skin-roundster .jw-option:hover {
+  color: #f15173;
+}
+
+.jw-skin-roundster .jw-option.jw-active-option {
+  color: #f15173;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.jw-skin-roundster .jw-icon-inline,
+.jw-skin-roundster .jw-icon-tooltip,
+.jw-skin-roundster .jw-text-elapsed,
+.jw-skin-roundster .jw-text-countdown,
+.jw-skin-roundster .jw-text-duration {
+  padding: 0 0.5em;
+}
+
+.jw-skin-roundster:not(.jw-breakpoint-0).jw-flag-time-slider-default:not(.jw-flag-audio-player) .jw-controlbar,
+.jw-skin-roundster:not(.jw-breakpoint-1).jw-flag-time-slider-default:not(.jw-flag-audio-player) .jw-controlbar {
+  bottom: .7em;
+  display: inline-block;
+  max-width: 800px;
+  margin: 0 auto;
+  left: 2%;
+  right: 2%;
+  width: 96%;
+}
+
+.jw-skin-roundster:not(.jw-breakpoint-0).jw-flag-time-slider-default:not(.jw-flag-audio-player).jw-state-idle .jw-controlbar,
+.jw-skin-roundster:not(.jw-breakpoint-1).jw-flag-time-slider-default:not(.jw-flag-audio-player).jw-state-idle .jw-controlbar {
+  display: none;
+}
+
+.jw-skin-roundster:not(.jw-breakpoint-0).jw-flag-time-slider-default:not(.jw-flag-audio-player) .jw-nextup-container,
+.jw-skin-roundster:not(.jw-breakpoint-1).jw-flag-time-slider-default:not(.jw-flag-audio-player) .jw-nextup-container {
+  bottom: 3.2em;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 800px;
+}
+
+.jw-skin-roundster:not(.jw-breakpoint-0).jw-flag-time-slider-default:not(.jw-flag-audio-player).jw-breakpoint-2 .jw-nextup-container,
+.jw-skin-roundster:not(.jw-breakpoint-1).jw-flag-time-slider-default:not(.jw-flag-audio-player).jw-breakpoint-2 .jw-nextup-container,
+.jw-skin-roundster:not(.jw-breakpoint-0).jw-flag-time-slider-default:not(.jw-flag-audio-player).jw-breakpoint-3 .jw-nextup-container,
+.jw-skin-roundster:not(.jw-breakpoint-1).jw-flag-time-slider-default:not(.jw-flag-audio-player).jw-breakpoint-3 .jw-nextup-container,
+.jw-skin-roundster:not(.jw-breakpoint-0).jw-flag-time-slider-default:not(.jw-flag-audio-player).jw-breakpoint-4 .jw-nextup-container,
+.jw-skin-roundster:not(.jw-breakpoint-1).jw-flag-time-slider-default:not(.jw-flag-audio-player).jw-breakpoint-4 .jw-nextup-container {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.jw-skin-roundster.jw-flag-audio-player .jw-controlbar {
+  bottom: 0;
+}
+
+.jw-skin-roundster .jw-controlbar {
+  border-radius: 1em;
+  padding: 0 1em;
+}
+
+.jw-skin-roundster .jw-tooltip-title {
+  border-bottom: 1px solid #747D92;
+  background-color: #878fa2;
+}
+
+.jw-skin-roundster .jw-rail,
+.jw-skin-roundster .jw-progress,
+.jw-skin-roundster .jw-buffer {
+  border-radius: 1em;
+}
+
+.jw-skin-roundster .jw-slider-volume {
+  border: 0;
+}
+
+.jw-skin-roundster .jw-knob {
+  background-color: #fff;
+  width: 0.9em;
+  height: 0.9em;
+  border-radius: 50%;
+  box-shadow: 0px 1px 5px 1px #868ea3;
+}
+
+.jw-skin-roundster .jw-slider-horizontal .jw-cue {
+  top: 0.07500000000000001em;
+  width: 0.25em;
+  height: 0.25em;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.jw-skin-roundster .jw-slider-horizontal .jw-knob {
+  top: -0.25em;
+}
+
+.jw-skin-roundster .jw-slider-vertical .jw-rail,
+.jw-skin-roundster .jw-slider-vertical .jw-progress {
+  width: .4em;
+}
+
+.jw-skin-roundster .jw-slider-vertical .jw-knob {
+  left: -0.07500000000000001em;
+}
+
+.jw-skin-roundster .jw-slider-vertical .jw-slider-container {
+  width: 0.75em;
+}
+
+.jw-skin-roundster .jw-time-tip,
+.jw-skin-roundster .jw-volume-tip,
+.jw-skin-roundster .jw-menu {
+  border-radius: 0.25em;
+}
+
+.jw-skin-roundster .jw-volume-tip,
+.jw-skin-roundster .jw-menu {
+  bottom: .3em;
+}
+
+.jw-skin-roundster .jw-dock .jw-dock-button {
+  border-radius: 50%;
+}
+
+.jw-skin-roundster .jw-dock .jw-overlay {
+  border-radius: 2.5em;
+}
+
+.jw-skin-roundster .jw-skip {
+  border-radius: 1em;
+  padding: 0.25em 1em;
+}
